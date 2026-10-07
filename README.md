@@ -73,16 +73,6 @@ Distillation trains the student to match the teacher's outputs **on average** (H
 
 ---
 
-## About the figures
-
-Figures 2, 4, and 5 are **illustrative**. They use made-up numbers chosen to show the mechanism, not measurements of any real model. Figure 3 uses the ~12x figure from FlashInfer-Bench Issue #195. Regenerate all figures with:
-
-```bash
-python scripts/make_figures.py figures
-```
-
-(Requires `matplotlib`.)
-
 ## References
 
 Gu, A., & Dao, T. (2023). *Mamba: Linear-time sequence modeling with selective state spaces*. arXiv. https://arxiv.org/abs/2312.00752
